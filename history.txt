@@ -1,0 +1,54 @@
+    1  ls
+    2  mkdir git
+    3  cd git
+    4  git init
+    5* git remote add origin https://github.com/EricKnudsen256/IT340_FileHunter.
+    6  mv ../answer.zip /
+    7  sudomv ../answer.zip /
+    8  sudo mv ../answer.zip /
+    9  ls
+   10  cd ..
+   11* 
+   12  cd git
+   13  ls
+   14  cd /
+   15  ls
+   16  cd ~
+   17  cd git
+   18  sudo mv /answer.zip ./
+   19  ls
+   20  git add --all
+   21  git commit -m "answer file"
+   22  git push -u origin master
+   23  sudo find / -type f -newermt 2020-02-19 | grep.txt
+   24  sudo find / -type f -newermt 2020-02-19 | grep *.txt
+   25  sudo find / -type f -newermt 2020-02-19 | grep .txt
+   26  cd ..
+   27  ls
+   28  mkdir Lab1
+   29  cd Lab1
+   30  mv /var/www/html/project/intro3.txt ~/Lab1
+   31  sudo mv /var/www/html/project/intro3.txt ~/Lab1
+   32  ls
+   33  sudo mv /var/www/html/project/intro10.txt ~/Lab1
+   34  sudo mv /var/www/html/project/intro6.txt ~/Lab1
+   35  ls
+   36  sudo mv /var/www/html/project/intro4.txt ~/Lab1
+   37  sudo mv /usr/local/lab/file9.txt ~/Lab1
+   38  sudo mv /media/sample/word7.txt ~/Lab1
+   39  sudo mv /media/sample/word5.txt ~/Lab1
+   40  sudo mv /media/sample/word8.txt ~/Lab1
+   41  sudo mv /home/vagrant/dir/something2.txt ~/Lab1
+   42  sudo mv /home/vagrant/dir/something1.txt ~/Lab1
+   43  ls
+   44  man sort
+   45  sort
+   46  sort ~/Lab1
+   47  sort -n
+   48  ls
+   49  cat something1.txt something2.txt intro3.txt intro4.txt word5.txt intro6.txt word7.txt word8.txt file9.txt intro10.txt > Labcat.txt
+   50  ls
+   51  cat Labcat.txt
+   52  cd ..
+   53  cd git
+   54  history > history.txt
